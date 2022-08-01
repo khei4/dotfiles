@@ -1,6 +1,6 @@
 abbr -a g git
 abbr -a gc 'git checkout'
-setenv RUSTC_WRAPPER /Users/khei4/.cargo/bin//sccache
+setenv RUSTC_WRAPPER $HOME/.cargo/bin/sccache
 if command -v exa > /dev/null
 	abbr -a l 'exa'
 	abbr -a ls 'exa'
@@ -46,3 +46,4 @@ function fish_prompt
 	set_color normal
 end
 
+alias ghidra '/Users/khei4/ghidra_10.1.2_PUBLIC/ghidraRun'
