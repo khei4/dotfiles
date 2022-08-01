@@ -1,13 +1,17 @@
 {
-    "terminal.integrated.defaultProfile.osx": "fish",
-    "rust-analyzer.checkOnSave.command": "clippy",
-    "editor.formatOnSave": true,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.fontLigatures": true,
-    "go.toolsManagement.autoUpdate": true,
-    "go.lintOnSave": "file",
-    "rust-analyzer.updates.channel": "nightly",
-    "window.zoomLevel": 1,
-    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
-
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "rust-analyzer.checkOnSave.command": "clippy",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.fontLigatures": true,
+  "go.toolsManagement.autoUpdate": true,
+  "go.lintOnSave": "file",
+  // "rust-analyzer.updates.channel": "nightly",
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "window.zoomLevel": 1,
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
