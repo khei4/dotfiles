@@ -45,5 +45,3 @@ function fish_prompt
 	echo -n '| '
 	set_color normal
 end
-
-alias ghidra '/Users/khei4/ghidra_10.1.2_PUBLIC/ghidraRun'
